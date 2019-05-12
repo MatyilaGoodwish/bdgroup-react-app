@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f04519bd.chunk.css",
+    "main.js": "/static/js/main.6a26e44a.chunk.js",
+    "main.js.map": "/static/js/main.6a26e44a.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/js/2.094fdd7a.chunk.js": "/static/js/2.094fdd7a.chunk.js",
+    "static/js/2.094fdd7a.chunk.js.map": "/static/js/2.094fdd7a.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.5cc1b7a1c287ac1a717ebe5bdb2749b7.js": "/precache-manifest.5cc1b7a1c287ac1a717ebe5bdb2749b7.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.f04519bd.chunk.css.map": "/static/css/main.f04519bd.chunk.css.map",
+    "static/media/App.css": "/static/media/header-bg.47d2c8a9.jpg",
+    "static/media/scrum.png": "/static/media/scrum.4d34db54.png"
+  }
+}
