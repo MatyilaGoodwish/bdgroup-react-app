@@ -15,10 +15,6 @@ export default class WelcomeComponent extends Component{
 	 
 		</div>
         </div>
-		
-	 
-    
- 
 </div>  
 
             </div>
