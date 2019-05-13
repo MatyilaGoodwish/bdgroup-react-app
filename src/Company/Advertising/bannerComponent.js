@@ -14,7 +14,6 @@ export default class BannerComponent extends Component{
                 <li><Link to="/Contact" class="button">Contact Us</Link></li>
               </ul>
             </div>
-     
         )
     }
 }
