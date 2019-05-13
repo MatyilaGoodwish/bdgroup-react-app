@@ -1,6 +1,5 @@
-import React , {Component} from "react";
-import { Link } from "react-router-dom";
-import BannerComponent from "../Company/Advertising/bannerComponent";
+import React , {Component} from "react"; 
+import BannerComponent from "../Company/Advertising/BannerComponent";
 
 export default class HeaderComponent extends Component{
     render(){
