@@ -1,7 +1,12 @@
 import { Link } from 'react-router-dom';
 import React ,{ Component } from 'react';
+import WelcomeComponent from '../Landing/Welcome';
 
 export default class Beliefs extends Component{
+
+    constructor(props){
+        super(props)
+    }
     render(){
         return(
             <div>
