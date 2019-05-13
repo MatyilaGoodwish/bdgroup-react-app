@@ -2,11 +2,13 @@ import React, { Component } from 'react';
 import { Route, BrowserRouter } from 'react-router-dom';
  
 import './App.css';
+
 import FooterComponent from './Views/footerComponent';
-import CtaComponent from './Views/ctaComponent';
-import SilosComponent from './Views/silosComponent';
+import TechnologyComponent from './Company/Technology/TechnologyComponent';
 import HeaderComponent from './Views/headerComponent';
 import Beliefs from './Company/Beliefs/BeliefsComponent';
+import ContactComponent from './Company/Contact/ContactComponent';
+import WelcomeComponent from './Company/Landing/Welcome';
 
  
 export default class App extends Component{
@@ -16,9 +18,10 @@ export default class App extends Component{
       <BrowserRouter>
       <HeaderComponent/>
         <div style={{width:'100%', maxWidth:'100%'}}>
-            <Route path="/Technology" component={SilosComponent} />
-            <Route path="/Contact" component={CtaComponent} />
-            <Route path="/Beliefs" component={Beliefs} />
+            <Route path="/" component={WelcomeComponent} />
+            <Route path="/Technology" component={TechnologyComponent} />
+            <Route path="/Methodology" component={Beliefs} />
+            <Route path="/Contact" component={ContactComponent}/>
         </div>
       </BrowserRouter>
       <FooterComponent/>
